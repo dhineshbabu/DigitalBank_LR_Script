@@ -1,0 +1,2 @@
+[Hosts]
+localhost=e:\dhinesh working folder\assessment\lr\loadtest_results_30nov2020\localhost_1.eve

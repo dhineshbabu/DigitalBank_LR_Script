@@ -1,0 +1,41 @@
+[Scenario]
+Product=LoadRunner Controller
+Version=2020.0.0.0
+Path=E:\Dhinesh Working Folder\Assessment\LR\Digital_Banking_V1.lrs
+Subject=Digital_Banking_V1
+Result_file=e:\dhinesh working folder\assessment\lr\loadtest_results_30nov2020\loadtest_results_30nov2020.lrr
+Description=
+ResultName=LoadTest_Results_30Nov2020
+Time_Zone=-19800
+Start_time=1606726312
+Daylight_Bias=0
+Stop_time=1606726929
+
+[Configuration]
+Public_local=1
+Is_mix=1
+Is_runner_file=0
+Runner_file=
+
+[Running_mode]
+Start_reason=By command
+Stop_reason=By a user
+
+[Data Collection]
+FullData=1
+SummaryEnded=1
+
+[Scenario_summary]
+Scenario Type=Manual Scenario
+Goal Profile Name=Schedule 1
+Mode=Scenario Scheduling
+Scenario Duration=Start all Vusers: 1 every 00:00:02 (HH:MM:SS); Run for 00:10:00 (HH:MM:SS); Stop all Vusers simultaneously
+Load Behavior=Initialize each Vuser just before it runs
+Global Schedule=ST1_1E2;R600;SP1;
+
+[Scripts]
+DigitalBanking_S01_Deposit_Savings_V1=C:\Users\lenovo\Documents\VuGen\Scripts\DigitalBanking\DigitalBanking_S01_Deposit_Savings_V1\DigitalBanking_S01_Deposit_Savings_V1.usr
+
+[Scripts_types]
+DigitalBanking_S01_Deposit_Savings_V1=Multi+QTWeb
+

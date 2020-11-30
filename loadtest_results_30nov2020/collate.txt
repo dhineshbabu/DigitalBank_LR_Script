@@ -1,0 +1,5 @@
+[Diagnostics]
+Status=-1
+[Collate Recovery]
+Scenario=E:\Dhinesh Working Folder\Assessment\LR\Digital_Banking_V1.lrs
+Completed=0
